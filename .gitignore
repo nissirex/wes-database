@@ -1,0 +1,9 @@
+local-only/
+.env
+.env.*
+!.env.example
+*.log
+*.mwb.bak
+*.mwb.bak*
+.DS_Store
+Thumbs.db
