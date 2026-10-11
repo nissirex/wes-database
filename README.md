@@ -4,12 +4,21 @@ A MySQL database design for equipment hire and outdoor trip registrations at the
 
 The database covers customers and guest sponsorship, scheduled trips and registrations, equipment inventory and hire agreements, vehicle assignments, and staff qualifications. Equipment hire and trip participation are independent activities.
 
+## Schema diagram
+
+Updated schema diagram exported from MySQL Workbench.
+
+![WES database schema showing customers, trips, equipment hire, vehicles, and staff qualifications](docs/images/schema-diagram.png)
+
+[Open the full-size diagram](docs/images/schema-diagram.png).
+
 ## Repository contents
 
 | Path | Purpose |
 | --- | --- |
 | `sql/01_schema.sql` | Current revised schema: 16 tables and 19 foreign keys |
 | `sql/02_example_queries.sql` | Example operational queries |
+| `docs/images/schema-diagram.png` | Updated schema diagram displayed above |
 | `docs/design.md` | Design changes, assumptions, and remaining limitations |
 | `archive/original-schema.sql` | Original Workbench SQL export |
 | `archive/ProjFile_Powerhouse.mwb` | Original Workbench model |
